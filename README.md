@@ -53,10 +53,8 @@ These enable fast prototyping, complex workflow automation, and enterprise-ready
 
 ---
 
-If you're a recruiter, hiring manager, or collaborator seeking someone who bridges **business strategy** and **AI execution** — collaborative, reliable, and results-driven — let's connect!  
+Interests are in **Enterprise AI**, **Solutions Engineering**, **Technical Go-to-Market**, or roles focused on strategic delivery.  
 
-Open to opportunities in **Enterprise AI**, **Solutions Engineering**, **Technical Go-to-Market**, or roles focused on strategic delivery.  
-
-Thanks for stopping by — looking forward to chatting.  
+Thanks for stopping by.  
 
 — Andrew ✨
