@@ -41,7 +41,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
-            python3 scripts/star-lists/apply-lists.py --dry-run
+            python scripts/star-lists/apply-lists.py --dry-run
           else
-            python3 scripts/star-lists/apply-lists.py
+            python scripts/star-lists/apply-lists.py --refresh
+            python scripts/star-lists/apply-lists.py
           fi
