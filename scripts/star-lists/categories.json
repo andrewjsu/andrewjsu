@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Archived",
+    "description": "Archived repositories",
+    "patterns": []
+  },
+  {
+    "name": "OpenClaw & Hermes",
+    "description": "OpenClaw, Hermes agent, and Garry Tan gstack ecosystem",
+    "patterns": [
+      "\\bnousresearch/hermes-agent\\b",
+      "\\bgarrytan/gbrain\\b",
+      "\\bgarrytan/gstack\\b",
+      "\\bchrysb/alphaclaw\\b",
+      "\\bsnarktank/clawchief\\b",
+      "\\bloperanger7/gstack-auto\\b"
+    ]
+  },
+  {
+    "name": "Agent Skills & Frameworks",
+    "description": "Claude Code skills, agent harnesses, and IDE rule packs",
+    "patterns": [
+      "\\bobra/superpowers\\b",
+      "\\baffaan-m/ecc\\b",
+      "\\bmsitarzewski/agency-agents\\b",
+      "\\bmvanhorn/last30days-skill\\b",
+      "\\bzubair-trabzada/geo-seo-claude\\b",
+      "\\bemdin/igra-skills\\b",
+      "\\bpatrickjs/awesome-cursorrules\\b",
+      "\\bbenoror/obsidianos_work\\b",
+      "\\bnvidia/skillspector\\b"
+    ]
+  },
+  {
+    "name": "AI Agents & Orchestration",
+    "description": "Multi-agent orchestration, harnesses, and agent coordination",
+    "patterns": [
+      "\\bagentwrapper/agent-orchestrator\\b",
+      "\\bpaperclipai/paperclip\\b",
+      "\\bneosigmaai/auto-harness\\b",
+      "\\bbrowser-use/browser-harness\\b",
+      "\\bbcurts/agentchattr\\b",
+      "\\bmicrosoft/agent-lightning\\b"
+    ]
+  },
+  {
+    "name": "Auto-Research",
+    "description": "Autonomous research loops and self-improving agent systems",
+    "patterns": [
+      "\\balvinreal/awesome-autoresearch\\b",
+      "\\baiming-lab/autoresearchclaw\\b",
+      "\\bgreyhaven-ai/autocontext\\b",
+      "\\bhyperspaceai/agi\\b"
+    ]
+  },
+  {
+    "name": "Memory & Context",
+    "description": "Agent memory layers, RAG alternatives, and context hubs",
+    "patterns": [
+      "\\bsupermemoryai/supermemory\\b",
+      "\\bmemvid/memvid\\b",
+      "\\bandrewyng/context-hub\\b"
+    ]
+  },
+  {
+    "name": "CLI & Dev Tools",
+    "description": "CLIs, git worktrees, payment tools, and developer utilities",
+    "patterns": [
+      "\\bmvanhorn/cli-printing-press\\b",
+      "\\bmvanhorn/printing-press-library\\b",
+      "\\bstripe/link-cli\\b",
+      "\\bcodejunkie99/ztk\\b",
+      "\\bkepano/defuddle\\b",
+      "\\bkunchenguid/no-mistakes\\b",
+      "\\bkunchenguid/treehouse\\b"
+    ]
+  },
+  {
+    "name": "Code Intelligence",
+    "description": "Codebase knowledge graphs and code understanding tools",
+    "patterns": [
+      "\\begonex-ai/understand-anything\\b"
+    ]
+  },
+  {
+    "name": "Voice & Audio AI",
+    "description": "Voice cloning, TTS, and speech-to-text tools",
+    "patterns": [
+      "\\bjamiepine/voicebox\\b",
+      "\\bvaibhavs10/insanely-fast-whisper\\b"
+    ]
+  },
+  {
+    "name": "Web Research",
+    "description": "Cross-platform social and web research for agents",
+    "patterns": [
+      "\\bpanniantong/agent-reach\\b"
+    ]
+  },
+  {
+    "name": "Learning & Reference",
+    "description": "Awesome lists, APIs, tutorials, and transparency resources",
+    "patterns": [
+      "\\bpublic-apis/public-apis\\b",
+      "\\bcodecrafters-io/build-your-own-x\\b",
+      "\\belder-plinius/cl4r1t4s\\b"
+    ]
+  },
+  {
+    "name": "UI & Content Tools",
+    "description": "Editors, text layout, and content formatting utilities",
+    "patterns": [
+      "\\bkunchenguid/lavish-axi\\b",
+      "\\bchenglou/pretext\\b"
+    ]
+  },
+  {
+    "name": "Other",
+    "description": "Repos that did not match any category",
+    "patterns": []
+  }
+]
