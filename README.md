@@ -1,6 +1,6 @@
 # Andrew Su 🚀
 
-**Senior Enterprise Solutions Engineer** at Jasper AI  
+**Senior Forward Deployed Engineer** at Jasper AI  
 Anaheim, CA (open to remote opportunities)  
 
 [🔗 LinkedIn](https://www.linkedin.com/in/andrewsu93/) — I respond promptly.
