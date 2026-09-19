@@ -1,0 +1,48 @@
+name: Organize Star Lists
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Preview only (no GitHub changes)
+        type: boolean
+        default: true
+
+jobs:
+  organize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Authenticate GitHub CLI
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "Add a GH_TOKEN repository secret (PAT with starred repos read/write)."
+            exit 1
+          fi
+          gh auth status
+
+      - name: Refresh starred repos snapshot
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          gh api users/andrewjsu/starred --paginate \
+            --jq '.[] | {name: .full_name, id: .id, node_id: .node_id, desc: .description, lang: .language, topics: .topics, stars: .stargazers_count, archived: .archived, fork: .fork, updated: .updated_at}' \
+            > scripts/star-lists/stars.jsonl
+
+      - name: Apply star list organization
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python scripts/star-lists/apply-lists.py --dry-run
+          else
+            python scripts/star-lists/apply-lists.py --refresh
+            python scripts/star-lists/apply-lists.py
+          fi
